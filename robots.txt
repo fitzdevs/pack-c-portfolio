@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fitzdevs.github.io/pack-c-portfolio/sitemap.xml

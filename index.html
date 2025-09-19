@@ -1,44 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Portfolio Website Starter — Digital Flip</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <!-- HERO -->
-  <header class="hero">
-    <h1>Jane Doe</h1>
-    <p class="tagline">Freelancer • Designer • Builder</p>
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio — Digital Flips</title>
+<link rel="stylesheet" href="brand.css">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="favicon.png" type="image/png">
+  <meta property="og:image" content="og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+</head><body>
+  <header class="container">
+    <div class="kicker">Digital Flips</div>
+    <h1>Jane Doe — Designer & Builder</h1>
+    <p class="lede">I design crisp, conversion-first sites and small tools. Here are a few quick wins.</p>
+    <div class="section"><a class="btn" data-mail="">Start a Project</a></div>
   </header>
 
-  <!-- PROJECTS -->
-  <section class="projects">
-    <h2>Recent Projects</h2>
-    <div class="project-grid">
-      <div class="project-card">
-        <h3>Case Study 1</h3>
-        <p>Short description of the project, tools used, and results.</p>
+  <main class="container">
+    <section class="grid grid-3">
+      <div class="card">
+        <img src="img/project1.jpg" alt="Project 1" style="width:100%;border-radius:10px;margin-bottom:.75rem">
+        <strong>Case Study 1</strong><p>Short impact line (e.g., +28% signup rate).</p>
       </div>
-      <div class="project-card">
-        <h3>Case Study 2</h3>
-        <p>Another quick project summary to show credibility.</p>
+      <div class="card">
+        <img src="img/project2.jpg" alt="Project 2" style="width:100%;border-radius:10px;margin-bottom:.75rem">
+        <strong>Case Study 2</strong><p>Outcome-focused one-liner.</p>
       </div>
-      <div class="project-card">
-        <h3>Case Study 3</h3>
-        <p>A third showcase item. Add logos, screenshots, or links later.</p>
+      <div class="card">
+        <img src="img/project3.jpg" alt="Project 3" style="width:100%;border-radius:10px;margin-bottom:.75rem">
+        <strong>Case Study 3</strong><p>One sentence of value & tool stack.</p>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- CONTACT -->
-  <section class="contact">
-    <h2>Contact</h2>
-    <p>Interested in working together? Let’s talk.</p>
-    <div class="cta">
-      <a href="mailto:you@email.com?subject=Portfolio Inquiry">Contact to Inquire</a>
-    </div>
-  </section>
-</body>
-</html>
+    <section class="card">
+      <h2>Services</h2>
+      <div class="grid grid-3">
+        <div><strong>Landing Pages</strong><p>Fast static sites that convert.</p></div>
+        <div><strong>Brand Kits</strong><p>Logos, palettes, and typography.</p></div>
+        <div><strong>Starter Tools</strong><p>Lightweight JS utilities and forms.</p></div>
+      </div>
+    </section>
+
+    <section class="section" style="text-align:center">
+<section class="card">
+  <h2>Process</h2>
+  <ol>
+    <li><strong>Discovery:</strong> 20-min call to define the outcome.</li>
+    <li><strong>Design:</strong> static mock + color/type system in 48h.</li>
+    <li><strong>Build:</strong> ship a fast static site, measure, iterate.</li>
+  </ol>
+</section>
+      <a class="btn" data-mail="">Book a Call</a>
+    </section>
+  </main>
+
+  <footer><div class="container">© Digital Flips</div></footer>
+  <script src="email.js" defer></script>
+</body></html>
